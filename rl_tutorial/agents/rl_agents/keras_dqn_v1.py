@@ -88,7 +88,7 @@ class DDQN_Agent(object):
             q_pred = self.q_net.predict_on_batch(state)
             
             # Actions that will be taken at next state s'
-            max_actions = np.argmax(q_net, axis=1)
+            max_actions = np.argmax(q_eval, axis=1)
 
             q_target = q_pred
 
