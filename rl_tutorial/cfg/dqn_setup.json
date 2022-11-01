@@ -1,0 +1,14 @@
+{
+    "search_method": "epsilon",
+    "gamma": "0.99",
+    "epsilon": "1.0",
+    "epsilon_min" : "0.0025",
+    "epsilon_decay" : "0.9995",
+    "learning_rate" : "0.005",
+    "batch_size" : "32",
+    "warmup_step" : "250",
+    "tau":"0.05",
+    "save_model":"./model",
+    "model_file":"DDQN_Agent_saved_Booster",
+    "replace_target":"100"
+}
